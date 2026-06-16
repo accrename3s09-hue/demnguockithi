@@ -1,10 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <title>Đếm Ngược Kỳ Thi</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Đếm Ngược THPT 2027</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Xin chào GitHub Pages 🚀</h1>
+
+<div class="bg"></div>
+
+<div class="container">
+    <h1>🎓 ĐẾM NGƯỢC THPT 2027</h1>
+
+    <div class="clock" id="clock"></div>
+
+    <div class="countdown">
+        <div class="card">
+            <span id="days">0</span>
+            <p>Ngày</p>
+        </div>
+
+        <div class="card">
+            <span id="hours">0</span>
+            <p>Giờ</p>
+        </div>
+
+        <div class="card">
+            <span id="minutes">0</span>
+            <p>Phút</p>
+        </div>
+
+        <div class="card">
+            <span id="seconds">0</span>
+            <p>Giây</p>
+        </div>
+    </div>
+
+    <div class="exam-info">
+        <h2>📚 Kỳ thi THPT Quốc Gia 2027</h2>
+        <p>Ngày thi dự kiến: 26/06/2027</p>
+    </div>
+
+    <div class="progress-box">
+        <div class="progress-bar">
+            <div id="progress"></div>
+        </div>
+        <p id="progressText"></p>
+    </div>
+
+    <footer>
+        Made with ❤️ by LMH
+    </footer>
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
